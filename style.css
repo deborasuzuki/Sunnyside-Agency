@@ -4,6 +4,11 @@ body {
   margin: 0;
   width: 1140px;
 }
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+}
 
 .section-1 {
   height: 630px;
@@ -13,6 +18,12 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 375px) {
+  .section-1 {
+    width: 100%;
+    height: 550px;
+  }
 }
 .section-1 header {
   height: 80px;
@@ -26,6 +37,11 @@ body {
   height: 24px;
   width: 124px;
 }
+@media (max-width: 375px) {
+  .section-1 header .logo {
+    padding: 30px 0 0 30px;
+  }
+}
 .section-1 header nav {
   padding: 30px 40px 0 0;
   width: 370px;
@@ -33,11 +49,31 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 375px) {
+  .section-1 header nav {
+    width: 70px;
+    justify-content: flex-start;
+  }
+}
+.section-1 header nav .fas {
+  display: none;
+}
+@media (max-width: 375px) {
+  .section-1 header nav .fas {
+    display: flex;
+    color: #fff;
+  }
+}
 .section-1 header nav .pages {
   text-decoration: none;
   font-family: "Barlow";
   font-size: 14px;
   color: white;
+}
+@media (max-width: 375px) {
+  .section-1 header nav .pages {
+    display: none;
+  }
 }
 .section-1 header nav .btn-contact {
   font-family: "Fraunces";
@@ -49,6 +85,16 @@ body {
   padding: 0 18px;
   width: 110px;
   height: 40px;
+}
+.section-1 header nav .btn-contact:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 375px) {
+  .section-1 header nav .btn-contact {
+    display: none;
+  }
 }
 .section-1 h1 {
   margin-top: 70px;
@@ -351,6 +397,10 @@ body {
   font-weight: 600;
   color: #458c7e;
 }
+.section-7 nav .pages-2:hover {
+  color: white;
+  cursor: pointer;
+}
 .section-7 .socials {
   padding: 35px 0;
   width: 150px;
@@ -358,9 +408,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.section-7 .socials img {
-  width: 15px;
-  height: 15px;
+.section-7 .socials i {
+  width: 25px;
+  height: 25px;
+  color: #2c7566;
+}
+.section-7 .socials i:hover {
+  color: white;
+  cursor: pointer;
 }
 
 .attribution {
