@@ -23,4 +23,4 @@ HTML and Scss.
 
 See in:<a href="https://ds-sunnyside.netlify.app//"> Sunnyside Agency</a>
 
-![project_view](https://github.com/deborasuzuki/Single-Price-Grid/blob/project_view.png?raw=true)
+![project_view](https://github.com/deborasuzuki/Sunnyside-Agency/blob/main/Project%20View.png)
